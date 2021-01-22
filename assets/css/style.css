@@ -1,3 +1,5 @@
+
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -6,8 +8,57 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.me img {
-    border-radius: 50%;
+header {
+    overflow:hidden;
 }
 
-</style>
+
+div {
+    border: dashed blue 1px;
+    margin-bottom: 40px;
+    
+}
+
+
+.profession {
+    float: left;
+    text-align: right;
+    margin-left: 330px;
+}
+
+.profilePicture {
+    float: right;
+    margin-right: 270px;
+}
+
+.description {
+    text-align: justify;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contactInformation {
+    overflow: hidden;
+
+}
+
+#address {   
+    width: 30%;  
+    float: left; 
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+p.address {
+    text-align: right;
+}
+
+#moreLinks {    
+    width: 30%;
+    text-align: left;
+    float: left;
+
+footer {
+    
+}
