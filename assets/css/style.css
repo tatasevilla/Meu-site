@@ -6,8 +6,6 @@
 
 header {
     overflow:hidden;
-    font-family: Catamaran, Arial, Helvetica, sans-serif;
-    
     padding: 0;
     text-align: right;
 }
@@ -20,15 +18,36 @@ ul{
 }
 
 li {
+
     display: inline-block;
     padding: 20px;
 }
 
-a{
+
+li:hover {
+    background-color: chocolate;
+    
+}
+
+h1 {
+    position: relative;
+    right: 0;
+    top: 20px;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
 
+.professionInPhoto {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    color:white;
+    line-height: 1em;
+    letter-spacing: 0.3em;
+}
 
 .profession {
     font-size: 3.5em;
@@ -40,6 +59,7 @@ a{
     margin-left: 15%;
     margin-right: 60px;
     margin-bottom: 80px;
+    
 }
 
 .notBold {
@@ -51,31 +71,46 @@ a{
     float: left;     
     border-radius: 200px;
     position: relative;
-    top:-50px;    
+    top:-50px;     
 }
 
 main {
     overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
 }
 
-.description {
-    text-align: justify;
+
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {    
+    font-size: 1.8em;
+    font-weight: normal;    
+}
+
+p.projects {
     font-size: 1.2em;
-    padding: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-right: 60%;   
+}
+
+#description {
+    text-align: justify;
+    font-size: 1.2em;    
     line-height: 1.5em; 
-    margin-bottom: 40px;
+    margin-bottom: 100px;    
 }
 
 .address {   
     width: 30%;  
-    float: left; 
-    margin-left: 7%;
+    float: left;     
     margin-right: 5%;
     padding-left: 30px;
     line-height: 0.5em;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
 }
 
 #logoTaxonlab {
@@ -88,24 +123,23 @@ main {
 #downloadCV {
     font-size: 1.4em;
     font-weight: bold;
+    
 }
 
 #email {
     font-size: 1.4em;
     text-decoration: underline;
     position: relative;
-    top: 30px;
+    top: 15px;
     
 }
 
 .moreLinks {
     text-align: left;
-    float: left;
     word-spacing: 0.5em;
     font-size: 1.3em;
-    padding-top: 0;
-    position: relative;
-    top: 30px;
+    margin-bottom: 15px;
+    
 }
 
 #separator {
@@ -115,10 +149,11 @@ main {
     bottom: -15px;
 }
 
-#logoTwitter {
-    position: relative;
-    bottom: -8px;
+.logoSocialMedia {
+    margin-right: 20px;
 }
+
+
 
 .authorship {
     position: relative;
@@ -126,3 +161,4 @@ main {
     border-top: solid black 2px;  
     text-align: center;
     margin-bottom: 0;
+    border-bottom: none;
