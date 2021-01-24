@@ -1,64 +1,128 @@
 
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: Catamaran, Arial, Helvetica, sans-serif;
 }
 
 header {
     overflow:hidden;
+    font-family: Catamaran, Arial, Helvetica, sans-serif;
+    
+    padding: 0;
+    text-align: right;
 }
 
+ul{
+    font-size: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-div {
-    border: dashed blue 1px;
-    margin-bottom: 40px;
-    
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
 .profession {
+    font-size: 3.5em;
+    line-height: 1em; 
+    letter-spacing: 4px; 
+    word-spacing: 0.25em;
     float: left;
-    text-align: right;
-    margin-left: 330px;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 60px;
+    margin-bottom: 80px;
+}
+
+.notBold {
+    font-size: 0.6em;
+    font-weight: normal;
 }
 
 .profilePicture {
-    float: right;
-    margin-right: 270px;
+    float: left;     
+    border-radius: 200px;
+    position: relative;
+    top:-50px;    
+}
+
+main {
+    overflow: hidden;
 }
 
 .description {
     text-align: justify;
+    font-size: 1.2em;
     padding: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5em; 
+    margin-bottom: 40px;
 }
 
-.contactInformation {
-    overflow: hidden;
-
-}
-
-#address {   
+.address {   
     width: 30%;  
     float: left; 
-    margin-left: 20%;
-    margin-right: 20px;
+    margin-left: 7%;
+    margin-right: 5%;
+    padding-left: 30px;
+    line-height: 0.5em;
+    margin-bottom: 40px;
 }
 
-p.address {
-    text-align: right;
-}
-
-#moreLinks {    
-    width: 30%;
-    text-align: left;
-    float: left;
-
-footer {
+#logoTaxonlab {
+    position: relative;
+    top: 0;
+    left: -30px;
     
 }
+
+#downloadCV {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#email {
+    font-size: 1.4em;
+    text-decoration: underline;
+    position: relative;
+    top: 30px;
+    
+}
+
+.moreLinks {
+    text-align: left;
+    float: left;
+    word-spacing: 0.5em;
+    font-size: 1.3em;
+    padding-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+#separator {
+    font-weight: 500;
+    font-size: 3em;
+    position:relative;
+    bottom: -15px;
+}
+
+#logoTwitter {
+    position: relative;
+    bottom: -8px;
+}
+
+.authorship {
+    position: relative;
+    bottom: 0;
+    border-top: solid black 2px;  
+    text-align: center;
+    margin-bottom: 0;
